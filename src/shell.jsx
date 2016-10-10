@@ -1,4 +1,6 @@
 import React from 'react'
+import styles from './shell.styl'
+
 class Shell extends React.Component {
 
 
@@ -9,7 +11,7 @@ class Shell extends React.Component {
   }
 
   render() {
-    return <div>hddid dd</div>
+    return <div className={styles.main}>dd</div>
   }
 }
 

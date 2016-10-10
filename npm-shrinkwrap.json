@@ -17,6 +17,11 @@
       "from": "align-text@>=0.1.3 <0.2.0",
       "resolved": "./node_shrinkwrap/align-text-0.1.4.tar"
     },
+    "alphanum-sort": {
+      "version": "1.0.2",
+      "from": "alphanum-sort@>=1.0.1 <2.0.0",
+      "resolved": "./node_shrinkwrap/alphanum-sort-1.0.2.tar"
+    },
     "amdefine": {
       "version": "1.0.0",
       "from": "amdefine@>=0.0.4",
@@ -734,6 +739,11 @@
       "from": "cipher-base@>=1.0.0 <2.0.0",
       "resolved": "./node_shrinkwrap/cipher-base-1.0.3.tar"
     },
+    "clap": {
+      "version": "1.1.1",
+      "from": "clap@>=1.0.9 <2.0.0",
+      "resolved": "./node_shrinkwrap/clap-1.1.1.tar"
+    },
     "cliui": {
       "version": "2.1.0",
       "from": "cliui@>=2.1.0 <3.0.0",
@@ -744,10 +754,45 @@
       "from": "clone@>=1.0.2 <2.0.0",
       "resolved": "./node_shrinkwrap/clone-1.0.2.tar"
     },
+    "coa": {
+      "version": "1.0.1",
+      "from": "coa@>=1.0.1 <1.1.0",
+      "resolved": "./node_shrinkwrap/coa-1.0.1.tar"
+    },
     "code-point-at": {
       "version": "1.0.1",
       "from": "code-point-at@>=1.0.0 <2.0.0",
       "resolved": "./node_shrinkwrap/code-point-at-1.0.1.tar"
+    },
+    "color": {
+      "version": "0.11.3",
+      "from": "color@>=0.11.0 <0.12.0",
+      "resolved": "./node_shrinkwrap/color-0.11.3.tar"
+    },
+    "color-convert": {
+      "version": "1.5.0",
+      "from": "color-convert@>=1.3.0 <2.0.0",
+      "resolved": "./node_shrinkwrap/color-convert-1.5.0.tar"
+    },
+    "color-name": {
+      "version": "1.1.1",
+      "from": "color-name@>=1.0.0 <2.0.0",
+      "resolved": "./node_shrinkwrap/color-name-1.1.1.tar"
+    },
+    "color-string": {
+      "version": "0.3.0",
+      "from": "color-string@>=0.3.0 <0.4.0",
+      "resolved": "./node_shrinkwrap/color-string-0.3.0.tar"
+    },
+    "colormin": {
+      "version": "1.1.2",
+      "from": "colormin@>=1.0.5 <2.0.0",
+      "resolved": "./node_shrinkwrap/colormin-1.1.2.tar"
+    },
+    "colors": {
+      "version": "1.1.2",
+      "from": "colors@>=1.1.2 <1.2.0",
+      "resolved": "./node_shrinkwrap/colors-1.1.2.tar"
     },
     "commander": {
       "version": "2.9.0",
@@ -844,10 +889,47 @@
       "from": "crypto-browserify@>=3.11.0 <4.0.0",
       "resolved": "./node_shrinkwrap/crypto-browserify-3.11.0.tar"
     },
+    "css-color-names": {
+      "version": "0.0.4",
+      "from": "css-color-names@0.0.4",
+      "resolved": "./node_shrinkwrap/css-color-names-0.0.4.tar"
+    },
+    "css-loader": {
+      "version": "0.25.0",
+      "from": "https://registry.npmjs.org/css-loader/-/css-loader-0.25.0.tgz",
+      "resolved": "./node_shrinkwrap/css-loader-0.25.0.tar"
+    },
     "css-parse": {
       "version": "1.7.0",
       "from": "css-parse@>=1.7.0 <1.8.0",
       "resolved": "./node_shrinkwrap/css-parse-1.7.0.tar"
+    },
+    "css-selector-tokenizer": {
+      "version": "0.6.0",
+      "from": "css-selector-tokenizer@>=0.6.0 <0.7.0",
+      "resolved": "./node_shrinkwrap/css-selector-tokenizer-0.6.0.tar",
+      "dependencies": {
+        "regexpu-core": {
+          "version": "1.0.0",
+          "from": "regexpu-core@>=1.0.0 <2.0.0",
+          "resolved": "./node_shrinkwrap/regexpu-core-1.0.0.tar"
+        }
+      }
+    },
+    "cssesc": {
+      "version": "0.1.0",
+      "from": "cssesc@>=0.1.0 <0.2.0",
+      "resolved": "./node_shrinkwrap/cssesc-0.1.0.tar"
+    },
+    "cssnano": {
+      "version": "3.7.7",
+      "from": "cssnano@>=2.6.1 <4.0.0",
+      "resolved": "./node_shrinkwrap/cssnano-3.7.7.tar"
+    },
+    "csso": {
+      "version": "2.2.1",
+      "from": "csso@>=2.2.1 <2.3.0",
+      "resolved": "./node_shrinkwrap/csso-2.2.1.tar"
     },
     "cubic2quad": {
       "version": "1.0.0",
@@ -873,6 +955,11 @@
       "version": "1.0.1",
       "from": "deep-equal@>=1.0.0 <2.0.0",
       "resolved": "./node_shrinkwrap/deep-equal-1.0.1.tar"
+    },
+    "defined": {
+      "version": "1.0.0",
+      "from": "defined@>=1.0.0 <2.0.0",
+      "resolved": "./node_shrinkwrap/defined-1.0.0.tar"
     },
     "depd": {
       "version": "1.1.0",
@@ -983,6 +1070,11 @@
       "from": "escape-string-regexp@>=1.0.2 <2.0.0",
       "resolved": "./node_shrinkwrap/escape-string-regexp-1.0.5.tar"
     },
+    "esprima": {
+      "version": "2.7.3",
+      "from": "esprima@>=2.6.0 <3.0.0",
+      "resolved": "./node_shrinkwrap/esprima-2.7.3.tar"
+    },
     "esutils": {
       "version": "2.0.2",
       "from": "esutils@>=2.0.2 <3.0.0",
@@ -1043,6 +1135,11 @@
       "from": "extglob@>=0.3.1 <0.4.0",
       "resolved": "./node_shrinkwrap/extglob-0.3.2.tar"
     },
+    "fastparse": {
+      "version": "1.1.1",
+      "from": "fastparse@>=1.1.1 <2.0.0",
+      "resolved": "./node_shrinkwrap/fastparse-1.1.1.tar"
+    },
     "faye-websocket": {
       "version": "0.10.0",
       "from": "faye-websocket@>=0.10.0 <0.11.0",
@@ -1084,6 +1181,11 @@
           "resolved": "./node_shrinkwrap/path-exists-2.1.0.tar"
         }
       }
+    },
+    "flatten": {
+      "version": "1.0.2",
+      "from": "flatten@1.0.2",
+      "resolved": "./node_shrinkwrap/flatten-1.0.2.tar"
     },
     "font-loader": {
       "version": "0.1.2",
@@ -1734,6 +1836,11 @@
         }
       }
     },
+    "function-bind": {
+      "version": "1.1.0",
+      "from": "function-bind@>=1.0.2 <2.0.0",
+      "resolved": "./node_shrinkwrap/function-bind-1.1.0.tar"
+    },
     "gather-stream": {
       "version": "1.0.0",
       "from": "gather-stream@>=1.0.0 <2.0.0",
@@ -1784,6 +1891,11 @@
       "from": "gunzip-maybe@1.3.1",
       "resolved": "./node_shrinkwrap/gunzip-maybe-1.3.1.tar"
     },
+    "has": {
+      "version": "1.0.1",
+      "from": "has@>=1.0.1 <2.0.0",
+      "resolved": "./node_shrinkwrap/has-1.0.1.tar"
+    },
     "has-ansi": {
       "version": "2.0.0",
       "from": "has-ansi@>=2.0.0 <3.0.0",
@@ -1825,6 +1937,11 @@
       "version": "2.1.5",
       "from": "hosted-git-info@>=2.1.4 <3.0.0",
       "resolved": "./node_shrinkwrap/hosted-git-info-2.1.5.tar"
+    },
+    "html-comment-regex": {
+      "version": "1.1.1",
+      "from": "html-comment-regex@>=1.1.0 <2.0.0",
+      "resolved": "./node_shrinkwrap/html-comment-regex-1.1.1.tar"
     },
     "http-browserify": {
       "version": "1.7.0",
@@ -1875,6 +1992,11 @@
       "from": "iconv-lite@>=0.4.13 <0.5.0",
       "resolved": "./node_shrinkwrap/iconv-lite-0.4.13.tar"
     },
+    "icss-replace-symbols": {
+      "version": "1.0.2",
+      "from": "icss-replace-symbols@>=1.0.2 <2.0.0",
+      "resolved": "./node_shrinkwrap/icss-replace-symbols-1.0.2.tar"
+    },
     "ieee754": {
       "version": "1.1.8",
       "from": "ieee754@>=1.1.4 <2.0.0",
@@ -1889,6 +2011,11 @@
       "version": "3.8.1",
       "from": "immutable@>=3.7.6 <4.0.0",
       "resolved": "./node_shrinkwrap/immutable-3.8.1.tar"
+    },
+    "indexes-of": {
+      "version": "1.0.1",
+      "from": "indexes-of@>=1.0.1 <2.0.0",
+      "resolved": "./node_shrinkwrap/indexes-of-1.0.1.tar"
     },
     "indexof": {
       "version": "0.0.1",
@@ -1924,6 +2051,11 @@
       "version": "1.1.1",
       "from": "ipaddr.js@1.1.1",
       "resolved": "./node_shrinkwrap/ipaddr.js-1.1.1.tar"
+    },
+    "is-absolute-url": {
+      "version": "2.0.0",
+      "from": "is-absolute-url@>=2.0.0 <3.0.0",
+      "resolved": "./node_shrinkwrap/is-absolute-url-2.0.0.tar"
     },
     "is-arrayish": {
       "version": "0.2.1",
@@ -1995,6 +2127,11 @@
       "from": "is-number@>=2.1.0 <3.0.0",
       "resolved": "./node_shrinkwrap/is-number-2.1.0.tar"
     },
+    "is-plain-obj": {
+      "version": "1.1.0",
+      "from": "is-plain-obj@>=1.0.0 <2.0.0",
+      "resolved": "./node_shrinkwrap/is-plain-obj-1.1.0.tar"
+    },
     "is-posix-bracket": {
       "version": "0.1.1",
       "from": "is-posix-bracket@>=0.1.0 <0.2.0",
@@ -2009,6 +2146,11 @@
       "version": "1.1.0",
       "from": "is-stream@>=1.0.1 <2.0.0",
       "resolved": "./node_shrinkwrap/is-stream-1.1.0.tar"
+    },
+    "is-svg": {
+      "version": "2.0.1",
+      "from": "is-svg@>=2.0.0 <3.0.0",
+      "resolved": "./node_shrinkwrap/is-svg-2.0.1.tar"
     },
     "is-utf8": {
       "version": "0.2.1",
@@ -2044,6 +2186,11 @@
       "version": "1.0.3",
       "from": "js-tokens@>=1.0.1 <2.0.0",
       "resolved": "./node_shrinkwrap/js-tokens-1.0.3.tar"
+    },
+    "js-yaml": {
+      "version": "3.6.1",
+      "from": "js-yaml@>=3.6.1 <3.7.0",
+      "resolved": "./node_shrinkwrap/js-yaml-3.6.1.tar"
     },
     "jsesc": {
       "version": "1.3.0",
@@ -2117,15 +2264,40 @@
       "from": "lodash@>=4.16.2 <5.0.0",
       "resolved": "./node_shrinkwrap/lodash-4.16.4.tar"
     },
+    "lodash._createcompounder": {
+      "version": "3.0.0",
+      "from": "lodash._createcompounder@>=3.0.0 <4.0.0",
+      "resolved": "./node_shrinkwrap/lodash._createcompounder-3.0.0.tar"
+    },
+    "lodash._root": {
+      "version": "3.0.1",
+      "from": "lodash._root@>=3.0.0 <4.0.0",
+      "resolved": "./node_shrinkwrap/lodash._root-3.0.1.tar"
+    },
     "lodash.assign": {
       "version": "4.2.0",
       "from": "lodash.assign@4.2.0",
       "resolved": "./node_shrinkwrap/lodash.assign-4.2.0.tar"
     },
+    "lodash.camelcase": {
+      "version": "3.0.1",
+      "from": "lodash.camelcase@>=3.0.1 <4.0.0",
+      "resolved": "./node_shrinkwrap/lodash.camelcase-3.0.1.tar"
+    },
+    "lodash.deburr": {
+      "version": "3.2.0",
+      "from": "lodash.deburr@>=3.0.0 <4.0.0",
+      "resolved": "./node_shrinkwrap/lodash.deburr-3.2.0.tar"
+    },
     "lodash.indexof": {
       "version": "4.0.5",
       "from": "lodash.indexof@>=4.0.5 <5.0.0",
       "resolved": "./node_shrinkwrap/lodash.indexof-4.0.5.tar"
+    },
+    "lodash.words": {
+      "version": "3.2.0",
+      "from": "lodash.words@>=3.0.0 <4.0.0",
+      "resolved": "./node_shrinkwrap/lodash.words-3.2.0.tar"
     },
     "log-symbols": {
       "version": "1.0.2",
@@ -2146,6 +2318,11 @@
       "version": "4.0.1",
       "from": "lru-cache@>=4.0.0 <5.0.0",
       "resolved": "./node_shrinkwrap/lru-cache-4.0.1.tar"
+    },
+    "macaddress": {
+      "version": "0.2.8",
+      "from": "macaddress@>=0.2.8 <0.3.0",
+      "resolved": "./node_shrinkwrap/macaddress-0.2.8.tar"
     },
     "map-stream": {
       "version": "0.1.0",
@@ -2278,6 +2455,18 @@
       "version": "0.1.2",
       "from": "normalize-range@>=0.1.2 <0.2.0",
       "resolved": "./node_shrinkwrap/normalize-range-0.1.2.tar"
+    },
+    "normalize-url": {
+      "version": "1.6.1",
+      "from": "normalize-url@>=1.4.0 <2.0.0",
+      "resolved": "./node_shrinkwrap/normalize-url-1.6.1.tar",
+      "dependencies": {
+        "query-string": {
+          "version": "4.2.3",
+          "from": "query-string@>=4.1.0 <5.0.0",
+          "resolved": "./node_shrinkwrap/query-string-4.2.3.tar"
+        }
+      }
     },
     "npm-run-all": {
       "version": "1.4.0",
@@ -2495,6 +2684,11 @@
       "from": "postcss-alias@>=0.2.2 <0.3.0",
       "resolved": "./node_shrinkwrap/postcss-alias-0.2.2.tar"
     },
+    "postcss-calc": {
+      "version": "5.3.1",
+      "from": "postcss-calc@>=5.2.0 <6.0.0",
+      "resolved": "./node_shrinkwrap/postcss-calc-5.3.1.tar"
+    },
     "postcss-clearfix": {
       "version": "1.0.0",
       "from": "postcss-clearfix@>=1.0.0 <2.0.0",
@@ -2505,10 +2699,50 @@
       "from": "postcss-color-rgba-fallback@>=2.0.0 <3.0.0",
       "resolved": "./node_shrinkwrap/postcss-color-rgba-fallback-2.2.0.tar"
     },
+    "postcss-colormin": {
+      "version": "2.2.1",
+      "from": "postcss-colormin@>=2.1.8 <3.0.0",
+      "resolved": "./node_shrinkwrap/postcss-colormin-2.2.1.tar"
+    },
+    "postcss-convert-values": {
+      "version": "2.4.1",
+      "from": "postcss-convert-values@>=2.3.4 <3.0.0",
+      "resolved": "./node_shrinkwrap/postcss-convert-values-2.4.1.tar"
+    },
+    "postcss-discard-comments": {
+      "version": "2.0.4",
+      "from": "postcss-discard-comments@>=2.0.4 <3.0.0",
+      "resolved": "./node_shrinkwrap/postcss-discard-comments-2.0.4.tar"
+    },
+    "postcss-discard-duplicates": {
+      "version": "2.0.1",
+      "from": "postcss-discard-duplicates@>=2.0.1 <3.0.0",
+      "resolved": "./node_shrinkwrap/postcss-discard-duplicates-2.0.1.tar"
+    },
+    "postcss-discard-empty": {
+      "version": "2.1.0",
+      "from": "postcss-discard-empty@>=2.0.1 <3.0.0",
+      "resolved": "./node_shrinkwrap/postcss-discard-empty-2.1.0.tar"
+    },
+    "postcss-discard-overridden": {
+      "version": "0.1.1",
+      "from": "postcss-discard-overridden@>=0.1.1 <0.2.0",
+      "resolved": "./node_shrinkwrap/postcss-discard-overridden-0.1.1.tar"
+    },
+    "postcss-discard-unused": {
+      "version": "2.2.1",
+      "from": "postcss-discard-unused@>=2.2.1 <3.0.0",
+      "resolved": "./node_shrinkwrap/postcss-discard-unused-2.2.1.tar"
+    },
     "postcss-easings": {
       "version": "0.3.0",
       "from": "postcss-easings@>=0.3.0 <0.4.0",
       "resolved": "./node_shrinkwrap/postcss-easings-0.3.0.tar"
+    },
+    "postcss-filter-plugins": {
+      "version": "2.0.2",
+      "from": "postcss-filter-plugins@>=2.0.0 <3.0.0",
+      "resolved": "./node_shrinkwrap/postcss-filter-plugins-2.0.2.tar"
     },
     "postcss-fontpath": {
       "version": "0.2.0",
@@ -2530,10 +2764,85 @@
       "from": "postcss-loader@latest",
       "resolved": "./node_shrinkwrap/postcss-loader-0.13.0.tar"
     },
+    "postcss-merge-idents": {
+      "version": "2.1.7",
+      "from": "postcss-merge-idents@>=2.1.5 <3.0.0",
+      "resolved": "./node_shrinkwrap/postcss-merge-idents-2.1.7.tar"
+    },
+    "postcss-merge-longhand": {
+      "version": "2.0.1",
+      "from": "postcss-merge-longhand@>=2.0.1 <3.0.0",
+      "resolved": "./node_shrinkwrap/postcss-merge-longhand-2.0.1.tar"
+    },
+    "postcss-merge-rules": {
+      "version": "2.0.10",
+      "from": "postcss-merge-rules@>=2.0.3 <3.0.0",
+      "resolved": "./node_shrinkwrap/postcss-merge-rules-2.0.10.tar"
+    },
+    "postcss-message-helpers": {
+      "version": "2.0.0",
+      "from": "postcss-message-helpers@>=2.0.0 <3.0.0",
+      "resolved": "./node_shrinkwrap/postcss-message-helpers-2.0.0.tar"
+    },
+    "postcss-minify-font-values": {
+      "version": "1.0.5",
+      "from": "postcss-minify-font-values@>=1.0.2 <2.0.0",
+      "resolved": "./node_shrinkwrap/postcss-minify-font-values-1.0.5.tar"
+    },
+    "postcss-minify-gradients": {
+      "version": "1.0.3",
+      "from": "postcss-minify-gradients@>=1.0.1 <2.0.0",
+      "resolved": "./node_shrinkwrap/postcss-minify-gradients-1.0.3.tar"
+    },
+    "postcss-minify-params": {
+      "version": "1.0.5",
+      "from": "postcss-minify-params@>=1.0.4 <2.0.0",
+      "resolved": "./node_shrinkwrap/postcss-minify-params-1.0.5.tar"
+    },
+    "postcss-minify-selectors": {
+      "version": "2.0.5",
+      "from": "postcss-minify-selectors@>=2.0.4 <3.0.0",
+      "resolved": "./node_shrinkwrap/postcss-minify-selectors-2.0.5.tar"
+    },
+    "postcss-modules-extract-imports": {
+      "version": "1.0.1",
+      "from": "postcss-modules-extract-imports@>=1.0.0 <2.0.0",
+      "resolved": "./node_shrinkwrap/postcss-modules-extract-imports-1.0.1.tar"
+    },
+    "postcss-modules-local-by-default": {
+      "version": "1.1.1",
+      "from": "postcss-modules-local-by-default@>=1.0.1 <2.0.0",
+      "resolved": "./node_shrinkwrap/postcss-modules-local-by-default-1.1.1.tar"
+    },
+    "postcss-modules-scope": {
+      "version": "1.0.2",
+      "from": "postcss-modules-scope@>=1.0.0 <2.0.0",
+      "resolved": "./node_shrinkwrap/postcss-modules-scope-1.0.2.tar"
+    },
+    "postcss-modules-values": {
+      "version": "1.2.2",
+      "from": "postcss-modules-values@>=1.1.0 <2.0.0",
+      "resolved": "./node_shrinkwrap/postcss-modules-values-1.2.2.tar"
+    },
+    "postcss-normalize-charset": {
+      "version": "1.1.0",
+      "from": "postcss-normalize-charset@>=1.1.0 <2.0.0",
+      "resolved": "./node_shrinkwrap/postcss-normalize-charset-1.1.0.tar"
+    },
+    "postcss-normalize-url": {
+      "version": "3.0.7",
+      "from": "postcss-normalize-url@>=3.0.7 <4.0.0",
+      "resolved": "./node_shrinkwrap/postcss-normalize-url-3.0.7.tar"
+    },
     "postcss-opacity": {
       "version": "3.0.0",
       "from": "postcss-opacity@>=3.0.0 <4.0.0",
       "resolved": "./node_shrinkwrap/postcss-opacity-3.0.0.tar"
+    },
+    "postcss-ordered-values": {
+      "version": "2.2.2",
+      "from": "postcss-ordered-values@>=2.1.0 <3.0.0",
+      "resolved": "./node_shrinkwrap/postcss-ordered-values-2.2.2.tar"
     },
     "postcss-position": {
       "version": "0.4.0",
@@ -2557,6 +2866,21 @@
         }
       }
     },
+    "postcss-reduce-idents": {
+      "version": "2.3.0",
+      "from": "postcss-reduce-idents@>=2.2.2 <3.0.0",
+      "resolved": "./node_shrinkwrap/postcss-reduce-idents-2.3.0.tar"
+    },
+    "postcss-reduce-initial": {
+      "version": "1.0.0",
+      "from": "postcss-reduce-initial@>=1.0.0 <2.0.0",
+      "resolved": "./node_shrinkwrap/postcss-reduce-initial-1.0.0.tar"
+    },
+    "postcss-reduce-transforms": {
+      "version": "1.0.3",
+      "from": "postcss-reduce-transforms@>=1.0.3 <2.0.0",
+      "resolved": "./node_shrinkwrap/postcss-reduce-transforms-1.0.3.tar"
+    },
     "postcss-reporter": {
       "version": "1.4.1",
       "from": "postcss-reporter@>=1.0.0 <2.0.0",
@@ -2566,6 +2890,21 @@
       "version": "0.3.3",
       "from": "postcss-responsive-type@>=0.3.1 <0.4.0",
       "resolved": "./node_shrinkwrap/postcss-responsive-type-0.3.3.tar"
+    },
+    "postcss-selector-parser": {
+      "version": "2.2.1",
+      "from": "postcss-selector-parser@>=2.0.0 <3.0.0",
+      "resolved": "./node_shrinkwrap/postcss-selector-parser-2.2.1.tar"
+    },
+    "postcss-svgo": {
+      "version": "2.1.5",
+      "from": "postcss-svgo@>=2.1.1 <3.0.0",
+      "resolved": "./node_shrinkwrap/postcss-svgo-2.1.5.tar"
+    },
+    "postcss-unique-selectors": {
+      "version": "2.0.2",
+      "from": "postcss-unique-selectors@>=2.0.2 <3.0.0",
+      "resolved": "./node_shrinkwrap/postcss-unique-selectors-2.0.2.tar"
     },
     "postcss-value-parser": {
       "version": "3.3.0",
@@ -2582,10 +2921,20 @@
       "from": "postcss-will-change@>=1.0.0 <2.0.0",
       "resolved": "./node_shrinkwrap/postcss-will-change-1.1.0.tar"
     },
+    "postcss-zindex": {
+      "version": "2.1.1",
+      "from": "postcss-zindex@>=2.0.1 <3.0.0",
+      "resolved": "./node_shrinkwrap/postcss-zindex-2.1.1.tar"
+    },
     "poststylus": {
       "version": "0.2.3",
       "from": "poststylus@latest",
       "resolved": "./node_shrinkwrap/poststylus-0.2.3.tar"
+    },
+    "prepend-http": {
+      "version": "1.0.4",
+      "from": "prepend-http@>=1.0.0 <2.0.0",
+      "resolved": "./node_shrinkwrap/prepend-http-1.0.4.tar"
     },
     "preserve": {
       "version": "0.2.0",
@@ -2665,6 +3014,11 @@
       "version": "1.4.1",
       "from": "punycode@>=1.2.4 <2.0.0",
       "resolved": "./node_shrinkwrap/punycode-1.4.1.tar"
+    },
+    "q": {
+      "version": "1.4.1",
+      "from": "q@>=1.1.2 <2.0.0",
+      "resolved": "./node_shrinkwrap/q-1.4.1.tar"
     },
     "qs": {
       "version": "6.2.0",
@@ -2951,6 +3305,11 @@
         }
       }
     },
+    "sort-keys": {
+      "version": "1.1.2",
+      "from": "sort-keys@>=1.0.0 <2.0.0",
+      "resolved": "./node_shrinkwrap/sort-keys-1.1.2.tar"
+    },
     "source-list-map": {
       "version": "0.1.6",
       "from": "source-list-map@>=0.1.0 <0.2.0",
@@ -3102,6 +3461,18 @@
         }
       }
     },
+    "svgo": {
+      "version": "0.7.1",
+      "from": "svgo@>=0.7.0 <0.8.0",
+      "resolved": "./node_shrinkwrap/svgo-0.7.1.tar",
+      "dependencies": {
+        "sax": {
+          "version": "1.2.1",
+          "from": "sax@>=1.2.1 <1.3.0",
+          "resolved": "./node_shrinkwrap/sax-1.2.1.tar"
+        }
+      }
+    },
     "svgpath": {
       "version": "2.2.0",
       "from": "svgpath@>=2.1.2 <3.0.0",
@@ -3220,6 +3591,21 @@
       "from": "underscore.string@>=2.4.0 <2.5.0",
       "resolved": "./node_shrinkwrap/underscore.string-2.4.0.tar"
     },
+    "uniq": {
+      "version": "1.0.1",
+      "from": "uniq@>=1.0.1 <2.0.0",
+      "resolved": "./node_shrinkwrap/uniq-1.0.1.tar"
+    },
+    "uniqid": {
+      "version": "4.1.0",
+      "from": "uniqid@>=4.0.0 <5.0.0",
+      "resolved": "./node_shrinkwrap/uniqid-4.1.0.tar"
+    },
+    "uniqs": {
+      "version": "2.0.0",
+      "from": "uniqs@>=2.0.0 <3.0.0",
+      "resolved": "./node_shrinkwrap/uniqs-2.0.0.tar"
+    },
     "unpipe": {
       "version": "1.0.0",
       "from": "unpipe@>=1.0.0 <1.1.0",
@@ -3284,6 +3670,11 @@
       "from": "vary@>=1.1.0 <1.2.0",
       "resolved": "./node_shrinkwrap/vary-1.1.0.tar"
     },
+    "vendors": {
+      "version": "1.0.1",
+      "from": "vendors@>=1.0.0 <2.0.0",
+      "resolved": "./node_shrinkwrap/vendors-1.0.1.tar"
+    },
     "vm-browserify": {
       "version": "0.0.4",
       "from": "vm-browserify@0.0.4",
@@ -3345,6 +3736,11 @@
       "version": "3.6.4",
       "from": "when@>=3.6.0 <3.7.0",
       "resolved": "./node_shrinkwrap/when-3.6.4.tar"
+    },
+    "whet.extend": {
+      "version": "0.9.9",
+      "from": "whet.extend@>=0.9.9 <0.10.0",
+      "resolved": "./node_shrinkwrap/whet.extend-0.9.9.tar"
     },
     "which": {
       "version": "1.2.11",
