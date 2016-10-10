@@ -1085,6 +1085,11 @@
       "from": "etag@>=1.7.0 <1.8.0",
       "resolved": "./node_shrinkwrap/etag-1.7.0.tar"
     },
+    "eve": {
+      "version": "0.4.2",
+      "from": "eve@>=0.4.2 <0.5.0",
+      "resolved": "./node_shrinkwrap/eve-0.4.2.tar"
+    },
     "event-stream": {
       "version": "3.3.4",
       "from": "event-stream@>=3.3.0 <3.4.0",
@@ -3287,6 +3292,11 @@
       "version": "1.0.0",
       "from": "slash@>=1.0.0 <2.0.0",
       "resolved": "./node_shrinkwrap/slash-1.0.0.tar"
+    },
+    "snapsvg": {
+      "version": "0.4.0",
+      "from": "snapsvg@latest",
+      "resolved": "./node_shrinkwrap/snapsvg-0.4.0.tar"
     },
     "sockjs": {
       "version": "0.3.17",

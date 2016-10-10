@@ -41,6 +41,7 @@
     "rucksack-css": "0.8.6",
     "shrinkpack": "0.17.0",
     "source-map-loader": "0.1.5",
+    "snapsvg": "0.4.0",
     "style-loader": "0.13.1",
     "stylus": "0.54.5",
     "stylus-loader": "2.3.1",

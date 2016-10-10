@@ -13,7 +13,6 @@ class Shell extends React.Component {
   render() {
     return <div className={styles.main}>
       <div className={styles.sidebar}>
-
       </div>
       <div className={styles.content} id='svgLand'>
       </div>

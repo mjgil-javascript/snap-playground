@@ -6,7 +6,7 @@ import Shell from './shell'
 if (module.hot) module.hot.accept()
 
 ReactDOM.render(
-  <Shell/>,
+  <Shell />,
   document.getElementById('root')
 );
 
