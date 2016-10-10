@@ -9,7 +9,7 @@ class Shell extends React.Component {
   }
 
   render() {
-    return <div>hid</div>
+    return <div>hddid dd</div>
   }
 }
 
