@@ -2017,6 +2017,18 @@
       "from": "immutable@>=3.7.6 <4.0.0",
       "resolved": "./node_shrinkwrap/immutable-3.8.1.tar"
     },
+    "imports-loader": {
+      "version": "0.6.5",
+      "from": "imports-loader@latest",
+      "resolved": "./node_shrinkwrap/imports-loader-0.6.5.tar",
+      "dependencies": {
+        "source-map": {
+          "version": "0.1.43",
+          "from": "source-map@>=0.1.0 <0.2.0",
+          "resolved": "./node_shrinkwrap/source-map-0.1.43.tar"
+        }
+      }
+    },
     "indexes-of": {
       "version": "1.0.1",
       "from": "indexes-of@>=1.0.1 <2.0.0",
