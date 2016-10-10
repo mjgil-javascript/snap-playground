@@ -14,7 +14,7 @@ const config = env => ({
   context: __dirname,
   entry: {
     deps: ['react', 'react-dom', 'react-router', 'uuid'],
-    app: ['./src/index'],
+    app: ['babel-polyfill', './src/index'],
   },
   output: {
       // [TODO] add this https://medium.com/@okonetchnikov/long-term-caching-of-static-assets-with-webpack-1ecb139adb95#.m7h0al8ji
