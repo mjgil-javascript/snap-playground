@@ -4,10 +4,12 @@
   "description": "My SVG generation platform",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "./validateConfig.js",
+    "build": "webpack --env.prod -p",
+    "preinstall": "node validateConfig.js",
     "postinstall": "npm shrinkwrap --dev && shrinkpack .",
-    "prestart": "./validateConfig.js"
+    "prestart": "node validateConfig.js",
+    "start": "webpack-dev-server --inline --hot --env.dev --host 0.0.0.0",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -33,9 +35,11 @@
     "postcss-loader": "0.13.0",
     "poststylus": "0.2.3",
     "react": "15.3.2",
+    "react-dom": "15.3.2",
     "react-router": "2.8.1",
     "rucksack-css": "0.8.6",
     "shrinkpack": "0.17.0",
+    "source-map-loader": "0.1.5",
     "style-loader": "0.13.1",
     "stylus": "0.54.5",
     "stylus-loader": "2.3.1",

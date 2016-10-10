@@ -13,21 +13,22 @@ const exclude = /node_modules/;
 const config = env => ({
   context: __dirname,
   entry: {
-    frontend: [full_polyfill ? 'babel-polyfill' : 'regenerator-runtime/runtime', './src/index'],
+    app: ['./src/index'],
   },
   output: {
       // [TODO] add this https://medium.com/@okonetchnikov/long-term-caching-of-static-assets-with-webpack-1ecb139adb95#.m7h0al8ji
     filename: '[name].bundle.js',
-    chunkFilename: '[id].bundle.js',
-    library: 'frontend',
+    library: 'app',
     path: path.join(__dirname, './build'),
     publicPath: path.join('/build'),
     libraryTarget: 'umd',
   },
   devtool: 'source-map',
   plugins:
-    [].concat(env.test ? [] : new webpack.optimize.CommonsChunkPlugin({ name: 'deps', filename: 'deps.bundle.js' }))
-      .concat(minimize ? [new webpack.optimize.UglifyJsPlugin({ minimize: true })] : [])
+    [].concat(minimize ? [new webpack.optimize.UglifyJsPlugin({ minimize: true })] : [])
+      .concat([
+        // new webpack.HotModuleReplacementPlugin(),
+        new webpack.NamedModulesPlugin()]),
   module: {
     loaders: [
       {
@@ -90,7 +91,6 @@ const config = env => ({
   },
   devServer: {
     contentBase: './',
-    hot: true,
   },
   eslint: {
     configFile: './.eslintrc',
