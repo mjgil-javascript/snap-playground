@@ -30,7 +30,8 @@ exec(npmCmd, function(error, stdout, stderr) {
   try {
     // console.log(stdout, stdout.trim().length)
     if (stdout.trim() !== '3.10.4') {
-      console.error('Node Version too low [expected > 6] got: ', fullVersionNumber)
+      console.error('Npm Version not correct [expected 3.10.4] got: ', fullVersionNumber)
+      console.log('please run "npm i -g 3.10.4"')
       process.exit(1)
     }
     else {
