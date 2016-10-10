@@ -13,6 +13,7 @@ const exclude = /node_modules/;
 const config = env => ({
   context: __dirname,
   entry: {
+    deps: ['react', 'react-dom', 'react-router', 'uuid'],
     app: ['./src/index'],
   },
   output: {
@@ -25,7 +26,8 @@ const config = env => ({
   },
   devtool: 'source-map',
   plugins:
-    [].concat(minimize ? [new webpack.optimize.UglifyJsPlugin({ minimize: true })] : [])
+    [].concat(env.test ? [] : new webpack.optimize.CommonsChunkPlugin({ name: 'deps', filename: 'deps.bundle.js' }))
+      .concat(minimize ? [new webpack.optimize.UglifyJsPlugin({ minimize: true })] : [])
       .concat([
         // new webpack.HotModuleReplacementPlugin(),
         new webpack.NamedModulesPlugin()]),

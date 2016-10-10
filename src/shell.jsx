@@ -11,7 +11,7 @@ class Shell extends React.Component {
   }
 
   render() {
-    return <div className={styles.main}>dd</div>
+    return <div className={styles.main}>dd dfsfsfd</div>
   }
 }
 
