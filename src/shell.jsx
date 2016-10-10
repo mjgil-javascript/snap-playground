@@ -21,7 +21,7 @@ class Shell extends React.Component {
       <div className={styles.sidebar}>
       </div>
       <div className={styles.content} >
-        <svg id='svgLand'></svg>
+        <svg id='svgLand' style={{height: '100%', width: '100%'}}></svg>
       </div>
     </div>
   }
