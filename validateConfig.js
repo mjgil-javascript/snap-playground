@@ -24,23 +24,3 @@ exec(nodeCmd, function(error, stdout, stderr) {
     process.exit(1)
   }
 });
-
-exec(npmCmd, function(error, stdout, stderr) {
-  // command output is in stdout
-  try {
-    // console.log(stdout, stdout.trim().length)
-    if (stdout.trim() !== '3.10.4') {
-      console.error('Npm Version not correct [expected 3.10.4] got: ', fullVersionNumber)
-      console.log('please run "npm i -g 3.10.4"')
-      process.exit(1)
-    }
-    else {
-      console.log('Npm Version Ok')
-      process.exit(0)
-    }
-  }
-  catch(e) {
-    console.error('Error while validating node version', error, error.stack)
-    process.exit(1)
-  }
-});

@@ -6,8 +6,9 @@
   "scripts": {
     "build": "webpack --env.prod -p",
     "preinstall": "node validateConfig.js",
-    "postinstall": "npm shrinkwrap --dev && shrinkpack .",
     "prestart": "node validateConfig.js",
+    "yarn": "yarn",
+    "yarnadd": "yarn add",
     "start": "webpack-dev-server --inline --hot --env.dev --host 0.0.0.0",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -41,13 +42,14 @@
     "react-router": "2.8.1",
     "rucksack-css": "0.8.6",
     "shrinkpack": "0.17.0",
-    "source-map-loader": "0.1.5",
     "snapsvg": "0.4.0",
+    "source-map-loader": "0.1.5",
     "style-loader": "0.13.1",
     "stylus": "0.54.5",
     "stylus-loader": "2.3.1",
     "uuid": "2.0.3",
     "webpack": "2.1.0-beta.22",
-    "webpack-dev-server": "2.1.0-beta.5"
+    "webpack-dev-server": "2.1.0-beta.5",
+    "yarn": "^0.1.3"
   }
 }
